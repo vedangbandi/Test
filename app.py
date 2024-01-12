@@ -8,8 +8,8 @@ def hello_world():
                            for j in range(0, i+1):
                                       print("* ",end="")
                            print("\r")
- n = 5
- star(n)
+               n = 5
+               star(n)
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0',port=5000)
